@@ -405,6 +405,30 @@ export const HomePage: React.FC = () => {
         onAddToPlaylist={addToPlaylist}
         selectedTrack={selectedTrackForPlaylist}
       />
+
+      {/* Raksha Bandhan Footer */}
+      <footer className="relative z-10 mt-16 py-8 border-t border-white/10">
+        <div className="container mx-auto px-4 md:px-6 text-center">
+          <div className="bg-gradient-to-r from-[#FF3CAC]/10 to-[#784BA0]/10 backdrop-blur-sm border border-white/10 rounded-xl md:rounded-2xl p-4 md:p-6 max-w-sm md:max-w-md mx-auto">
+            <div className="flex items-center justify-center space-x-1 md:space-x-2 mb-2 md:mb-3">
+              <span className="text-2xl">🎵</span>
+              <span className="text-2xl">💛</span>
+            </div>
+            <p className="text-white font-medium text-sm md:text-lg mb-1 md:mb-2 leading-relaxed">
+              A Raksha Bandhan gift from your brother,
+            </p>
+            <p className="text-[#FF3CAC] font-semibold text-base md:text-xl">
+              with love & music.
+            </p>
+            <div className="mt-3 md:mt-4 flex items-center justify-center space-x-1">
+              <div className="w-2 h-2 bg-[#FF3CAC] rounded-full animate-pulse"></div>
+              <div className="w-2 h-2 bg-[#784BA0] rounded-full animate-pulse animation-delay-75"></div>
+              <div className="w-2 h-2 bg-[#FF3CAC] rounded-full animate-pulse animation-delay-150"></div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
+
   );
 };
