@@ -1,4 +1,4 @@
-# 🎵 Harsha Music Player
+# 🎵 Geethika Music Player
 
 A modern, feature-rich music player built with React, TypeScript, and the YouTube API. Search, play, and organize your favorite music with an intuitive interface and powerful features.
 
